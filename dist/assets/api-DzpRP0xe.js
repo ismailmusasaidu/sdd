@@ -1,0 +1,1 @@
+import{s as r}from"./index-ZB3NVbXD.js";async function o(s){const{error:e}=await r.from("contact_submissions").insert([{name:s.name,email:s.email,phone:s.phone,user_type:s.userType,subject:s.subject,message:s.message,status:"new"}]);if(e)throw e;return{success:!0}}export{o as submitContactForm};
